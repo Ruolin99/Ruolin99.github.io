@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-# About Me
 
 Here is **Ruolin Shi** (Chinese: 石若琳).
 
