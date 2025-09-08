@@ -7,7 +7,8 @@ excerpt: 'This paper presents a framework for digitizing traffic rules to enhanc
 date: 2025-01-15
 venue: 'Expert Systems with Applications'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0957417425002830'
-citation: 'Shi, R., Wang, X., Zhou, Y., & Zhu, M. (2025). Digitizing traffic rules to guide automated vehicle trajectory planning. <i>Expert Systems with Applications</i>.'
+codeurl: 'https://github.com/Ruolin99/RulePlanner'
+citation: 'Shi, R., & Wang, X. (2025). Digitizing traffic rules to guide automated vehicle trajectory planning. Expert Systems with Applications, 272, 126661.'
 ---
 
 ![RulePlanner Framework](/images/ruleplanner.png)

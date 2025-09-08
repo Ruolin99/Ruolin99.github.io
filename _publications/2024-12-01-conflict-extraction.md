@@ -7,7 +7,7 @@ excerpt: 'This paper presents a comprehensive analysis of traffic conflicts at s
 date: 2024-12-01
 venue: 'International Journal of Transportation Science and Technology'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S2046043025000012'
-citation: 'Shi, R., Wang, X., Zhou, Y., & Zhu, M. (2024). Conflict extraction and characteristics analysis at signalized intersections using trajectory data. <i>International Journal of Transportation Science and Technology</i>.'
+citation: 'Wang, X., Shi, R., Leich, A., Saul, H., Sohr, A., & Bei, X. (2025). Conflict extraction and characteristics analysis at signalized intersections using trajectory data. International Journal of Transportation Science and Technology.'
 ---
 
 This paper presents a comprehensive framework for extracting and analyzing traffic conflicts at signalized intersections using high-resolution trajectory data. The study develops novel conflict detection algorithms and analyzes conflict characteristics under different traffic conditions, providing valuable insights for intersection safety improvement and traffic management.

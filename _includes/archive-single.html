@@ -80,5 +80,9 @@
       <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% endif %}
 
+    {% if post.codeurl %}
+      <p><a href="{{ post.codeurl }}" style="background-color: #4CAF50; color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px;"><i class="fa fa-github" aria-hidden="true"></i> View Code</a></p>
+    {% endif %}
+
   </article>
 </div>
