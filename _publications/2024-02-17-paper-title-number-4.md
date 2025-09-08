@@ -1,13 +1,22 @@
 ---
-title: "Paper Title Number 4"
+title: "Conflict extraction and characteristics analysis at signalized intersections using trajectory data"
 collection: publications
-category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+category: publications
+permalink: /publication/2024-12-01-conflict-extraction
+excerpt: 'This paper presents a comprehensive analysis of traffic conflicts at signalized intersections using trajectory data, focusing on conflict extraction methods and characteristics analysis.'
+date: 2024-12-01
+venue: 'International Journal of Transportation Science and Technology'
+paperurl: 'https://www.sciencedirect.com/science/article/pii/S2046043025000012'
+citation: 'Shi, R., Wang, X., Zhou, Y., & Zhu, M. (2024). Conflict extraction and characteristics analysis at signalized intersections using trajectory data. <i>International Journal of Transportation Science and Technology</i>.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This paper presents a comprehensive framework for extracting and analyzing traffic conflicts at signalized intersections using high-resolution trajectory data. The study develops novel conflict detection algorithms and analyzes conflict characteristics under different traffic conditions, providing valuable insights for intersection safety improvement and traffic management.
+
+The methodology combines trajectory data processing with conflict detection algorithms, enabling the identification of various conflict types including crossing conflicts, merging conflicts, and rear-end conflicts at signalized intersections. The analysis reveals patterns in conflict occurrence related to signal timing, traffic flow, and geometric design features.
+
+**Key contributions:**
+- Novel conflict extraction methodology using trajectory data
+- Comprehensive analysis of conflict characteristics
+- Insights for intersection safety improvements
+
+[Paper](https://www.sciencedirect.com/science/article/pii/S2046043025000012) | [DOI](https://doi.org/10.1016/j.ijtst.2024.12.001)

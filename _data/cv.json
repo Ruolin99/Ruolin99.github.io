@@ -1,16 +1,16 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Ruolin Shi (石若琳)",
+    "email": "2111224@tongji.edu.cn",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://ruolin99.github.io",
+    "summary": "Currently pursuing a Ph.D. degree in Transportation at Tongji University, Shanghai, China, under the supervision of Prof. Xuesong Wang. Research interests lie in decision-making and motion planning for automated vehicles, trajectory prediction, and digital traffic rules.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Shanghai",
+      "countryCode": "CN",
+      "region": "China"
     },
     "profiles": [
       {
@@ -19,79 +19,75 @@
         "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
       },
       {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "Ruolin99",
+        "url": "https://github.com/Ruolin99"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "Tongji University",
+      "area": "Ph.D. in Transportation",
+      "studyType": "Doctor of Philosophy",
+      "startDate": "2021-09",
+      "endDate": "",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "institution": "Jilin University",
+      "area": "Bachelor's Degree",
+      "studyType": "Bachelor of Science",
+      "startDate": "2017-09",
+      "endDate": "2021-06",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Research Interests",
+      "keywords": [
+        "Decision Making for Autonomous Vehicles",
+        "Motion Planning for Automated Vehicles",
+        "Trajectory Prediction",
+        "Digital Traffic Rules"
+      ]
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "RuleNet: rule-priority-aware multi-agent trajectory prediction in ambiguous traffic scenarios",
+      "publisher": "Transportation Research Part C: Emerging Technologies",
+      "releaseDate": "2025-09-01",
+      "website": "https://www.sciencedirect.com/science/article/abs/pii/S0968090X25003432",
+      "summary": "RuleNet is a specialized framework for safety-aware multi-agent trajectory prediction that combines graph attention networks with rule-based robustness attention mechanisms to simultaneously predict future trajectories of multiple traffic participants while evaluating trajectory safety."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Digitizing traffic rules to guide automated vehicle trajectory planning",
+      "publisher": "Expert Systems with Applications",
+      "releaseDate": "2025-01-15",
+      "website": "https://www.sciencedirect.com/science/article/abs/pii/S0957417425002830",
+      "summary": "This paper presents a comprehensive framework for digitizing traffic rules to guide automated vehicle trajectory planning, integrating rule-based constraints with motion planning algorithms to enable automated vehicles to make safe and rule-compliant trajectory decisions."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Conflict extraction and characteristics analysis at signalized intersections using trajectory data",
+      "publisher": "International Journal of Transportation Science and Technology",
+      "releaseDate": "2024-12-01",
+      "website": "https://www.sciencedirect.com/science/article/pii/S2046043025000012",
+      "summary": "This paper presents a comprehensive framework for extracting and analyzing traffic conflicts at signalized intersections using high-resolution trajectory data, focusing on conflict extraction methods and characteristics analysis for intersection safety improvement."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Examining causal factors of traffic conflicts at intersections using vehicle trajectory data",
+      "publisher": "International Journal of Transportation Science and Technology",
+      "releaseDate": "2024-01-01",
+      "website": "https://www.sciencedirect.com/science/article/pii/S204604302400001X",
+      "summary": "This paper examines causal factors of traffic conflicts at intersections using vehicle trajectory data, providing insights into conflict mechanisms and contributing to intersection safety analysis."
     }
   ],
   "presentations": [

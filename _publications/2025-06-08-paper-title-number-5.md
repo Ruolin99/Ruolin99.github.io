@@ -1,13 +1,27 @@
 ---
-title: "Paper Title Number 5, with math $$E=mc^2$$"
+title: "RuleNet: rule-priority-aware multi-agent trajectory prediction in ambiguous traffic scenarios"
 collection: publications
-category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+category: publications
+permalink: /publication/2025-09-01-rulenet
+excerpt: 'RuleNet is a specialized framework for safety-aware multi-agent trajectory prediction that combines graph attention networks with rule-based robustness attention mechanisms.'
+date: 2025-09-01
+venue: 'Transportation Research Part C: Emerging Technologies'
+paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0968090X25003432'
+citation: 'Shi, R., Wang, X., Zhou, Y., & Zhu, M. (2025). RuleNet: rule-priority-aware multi-agent trajectory prediction in ambiguous traffic scenarios. <i>Transportation Research Part C: Emerging Technologies</i>, 180, 105339.'
 ---
 
-Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
+![RuleNet Framework](/images/rulenet.png)
+
+RuleNet is a specialized framework for safety-aware multi-agent trajectory prediction in ambiguous traffic scenarios. The proposed method integrates graph attention networks with rule-based robustness attention mechanisms to simultaneously predict future trajectories of multiple traffic participants while evaluating trajectory safety.
+
+The framework addresses critical challenges in multi-agent trajectory prediction by incorporating traffic rule priorities and safety constraints. RuleNet combines temporal graph attention for modeling agent interactions with a novel robustness attention mechanism that enforces rule-based safety constraints.
+
+**Key contributions:**
+- Rule-priority-aware trajectory prediction framework
+- Integration of graph attention networks with rule-based safety mechanisms
+- Multi-agent trajectory prediction with safety evaluation
+- Robust performance in ambiguous traffic scenarios
+
+**Code:** [GitHub Repository](https://github.com/Ruolin99/RuleNet)
+
+[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0968090X25003432) | [DOI](https://doi.org/10.1016/j.trc.2025.105339) | [Code](https://github.com/Ruolin99/RuleNet)
