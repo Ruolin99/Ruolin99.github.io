@@ -1,7 +1,7 @@
 ---
 title: "Digitizing traffic rules to guide automated vehicle trajectory planning"
 collection: publications
-category: publications
+category: manuscripts
 permalink: /publication/2025-01-15-ruleplanner
 excerpt: 'This paper presents a framework for digitizing traffic rules to enhance automated vehicle trajectory planning, integrating rule-based constraints with motion planning algorithms.'
 date: 2025-01-15

@@ -13,6 +13,7 @@ Education
 ======
 * **Ph.D. in Transportation Engineering**, Tongji University, Shanghai, China, 2021-Present
   * Supervisor: Prof. Xuesong Wang
+  * GPA: 4.5/5.0
 
 
 * **B.S. in Transportation**, Jilin University, Changchun, China, 2017-2021

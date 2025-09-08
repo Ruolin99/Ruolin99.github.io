@@ -1,7 +1,7 @@
 ---
 title: "Conflict extraction and characteristics analysis at signalized intersections using trajectory data"
 collection: publications
-category: publications
+category: manuscripts
 permalink: /publication/2024-12-01-conflict-extraction
 excerpt: 'This paper presents a comprehensive analysis of traffic conflicts at signalized intersections using trajectory data, focusing on conflict extraction methods and characteristics analysis.'
 date: 2024-12-01
