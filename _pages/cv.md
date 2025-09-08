@@ -13,10 +13,10 @@ Education
 ======
 * **Ph.D. in Transportation Engineering**, Tongji University, Shanghai, China, 2021-Present
   * Supervisor: Prof. Xuesong Wang
-  * Research Focus: Decision-making and motion planning for automated vehicles, trajectory prediction, digital traffic rules
+
 
 * **B.S. in Transportation**, Jilin University, Changchun, China, 2017-2021
-  * GPA: 3.8/4.0
+  * GPA: 3.81/4.0
 
 Research Interests
 ======
@@ -25,13 +25,6 @@ Research Interests
 * Digital Traffic Rules and Intelligent Transportation Systems
 * Multi-agent Trajectory Prediction
 
-Skills
-======
-* **Programming Languages**: Python, MATLAB, C++
-* **Machine Learning**: PyTorch, TensorFlow, Scikit-learn
-* **Data Analysis**: Pandas, NumPy, Jupyter
-* **Version Control**: Git, GitHub
-* **Research Tools**: LaTeX, Overleaf
 
 Publications
 ======
