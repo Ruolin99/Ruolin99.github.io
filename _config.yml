@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Ruolin Shi / Academic Personal Website"
+title                    : "Ruolin Shi"
 title_separator          : "-"
 name                     : &name "Ruolin Shi"
 description              : &description "PhD student at Tongji University focusing on decision-making and motion planning for automated vehicles"
@@ -22,7 +22,7 @@ repository               : "Ruolin99/Ruolin99.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "休闲照.jpg"
+  avatar           : "favicon-512x512.png"
   name             : "Ruolin Shi (石若琳)"
   pronouns         : # example: "she/her"
   bio              : "Currently pursuing a Ph.D. degree in Transportation at Tongji University, Shanghai, China, under the supervision of Prof. Xuesong Wang. Research interests lie in decision-making and motion planning for automated vehicles, trajectory prediction, and digital traffic rules."
