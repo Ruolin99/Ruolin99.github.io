@@ -7,6 +7,7 @@ excerpt: 'This paper presents a comprehensive analysis of traffic conflicts at s
 date: 2024-12-01
 venue: 'International Journal of Transportation Science and Technology'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S2046043025000012'
+codeurl: 'https://github.com/Ruolin99/Two-step-trajectory-reconstruction'
 citation: 'Wang, X., Shi, R., Leich, A., Saul, H., Sohr, A., & Bei, X. (2025). Conflict extraction and characteristics analysis at signalized intersections using trajectory data. International Journal of Transportation Science and Technology.'
 ---
 
@@ -19,4 +20,6 @@ The methodology combines trajectory data processing with conflict detection algo
 - Comprehensive analysis of conflict characteristics
 - Insights for intersection safety improvements
 
-[Paper](https://www.sciencedirect.com/science/article/pii/S2046043025000012) | [DOI](https://doi.org/10.1016/j.ijtst.2024.12.001)
+**Code:** [GitHub Repository](https://github.com/Ruolin99/Two-step-trajectory-reconstruction)
+
+[Paper](https://www.sciencedirect.com/science/article/pii/S2046043025000012) | [DOI](https://doi.org/10.1016/j.ijtst.2024.12.001) | [Code](https://github.com/Ruolin99/Two-step-trajectory-reconstruction)

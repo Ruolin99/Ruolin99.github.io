@@ -62,32 +62,137 @@
   "references": [],
   "publications": [
     {
-      "name": "RuleNet: rule-priority-aware multi-agent trajectory prediction in ambiguous traffic scenarios",
+      "name": "RuleNet: Rule-priority-aware multi-agent trajectory prediction in ambiguous traffic scenarios",
       "publisher": "Transportation Research Part C: Emerging Technologies",
       "releaseDate": "2025-09-01",
       "website": "https://www.sciencedirect.com/science/article/abs/pii/S0968090X25003432",
-      "summary": "RuleNet is a specialized framework for safety-aware multi-agent trajectory prediction that combines graph attention networks with rule-based robustness attention mechanisms to simultaneously predict future trajectories of multiple traffic participants while evaluating trajectory safety."
+      "summary": "SCI, IF:8.4, 中科院一区TOP"
     },
     {
       "name": "Digitizing traffic rules to guide automated vehicle trajectory planning",
       "publisher": "Expert Systems with Applications",
       "releaseDate": "2025-01-15",
       "website": "https://www.sciencedirect.com/science/article/abs/pii/S0957417425002830",
-      "summary": "This paper presents a comprehensive framework for digitizing traffic rules to guide automated vehicle trajectory planning, integrating rule-based constraints with motion planning algorithms to enable automated vehicles to make safe and rule-compliant trajectory decisions."
+      "summary": "SCI, IF:9.4, 中科院一区TOP"
+    },
+    {
+      "name": "From ambiguity to precision: Digitized traffic rules for autonomous driving",
+      "publisher": "Accident Analysis & Prevention",
+      "releaseDate": "2026-01-01",
+      "website": "https://www.sciencedirect.com/science/article/pii/S0001457526001302",
+      "summary": "SSCI, IF:7.4, 中科院一区TOP"
     },
     {
       "name": "Conflict extraction and characteristics analysis at signalized intersections using trajectory data",
       "publisher": "International Journal of Transportation Science and Technology",
-      "releaseDate": "2024-12-01",
+      "releaseDate": "2025-01-01",
       "website": "https://www.sciencedirect.com/science/article/pii/S2046043025000012",
-      "summary": "This paper presents a comprehensive framework for extracting and analyzing traffic conflicts at signalized intersections using high-resolution trajectory data, focusing on conflict extraction methods and characteristics analysis for intersection safety improvement."
+      "summary": "ESCI, IF:5.1, 中科院二区"
     },
     {
-      "name": "Examining causal factors of traffic conflicts at intersections using vehicle trajectory data",
+      "name": "面向自动驾驶系统的交通规则建模研究进展",
+      "publisher": "中国公路学报",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "EI"
+    },
+    {
+      "name": "Traffic Rule-Embedded Decision-Making for Automated Vehicles in Pedestrian-Vehicle Conflicts via Deep Reinforcement Learning",
+      "publisher": "Accident Analysis & Prevention",
+      "releaseDate": "2026-02-01",
+      "website": "",
+      "summary": "SSCI, IF:7.4, 中科院一区TOP"
+    },
+    {
+      "name": "Examining Causal Factors of Traffic Conflicts at Intersections Using Vehicle Trajectory Data",
       "publisher": "International Journal of Transportation Science and Technology",
       "releaseDate": "2024-01-01",
       "website": "https://www.sciencedirect.com/science/article/pii/S204604302400001X",
-      "summary": "This paper examines causal factors of traffic conflicts at intersections using vehicle trajectory data, providing insights into conflict mechanisms and contributing to intersection safety analysis."
+      "summary": "ESCI, IF:5.1, 中科院二区"
+    },
+    {
+      "name": "面向自动驾驶的交叉口关键合规风险场景识别",
+      "publisher": "中国公路学报",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "一审中"
+    },
+    {
+      "name": "MemEA: Memory-enhanced adaptive planner for rule-compliant driving with user preferences",
+      "publisher": "Transportation Research Part C: Emerging Technologies",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "一审中"
+    },
+    {
+      "name": "MemEA: Memory-enhanced adaptive planner for rule-compliant driving with user preferences",
+      "publisher": "Proceedings of the 2026 World Transport Convention",
+      "releaseDate": "2026-06-02",
+      "website": "",
+      "summary": "WTC 2026 Conference"
+    },
+    {
+      "name": "Adaptive multi-target trajectory prediction with priority evaluation of ambiguous traffic rules in interactive scenarios",
+      "publisher": "Transportation Research Board 104th Annual Meeting",
+      "releaseDate": "2025-01-05",
+      "website": "",
+      "summary": "TRB 104th Annual Meeting"
+    },
+    {
+      "name": "Digitized traffic rules guided trajectory planning: A case study of right-turn scenario",
+      "publisher": "Transportation Research Board 103rd Annual Meeting",
+      "releaseDate": "2024-01-07",
+      "website": "",
+      "summary": "TRB 103rd Annual Meeting"
+    },
+    {
+      "name": "Analysis of right-turning vehicle operation characteristics at intersections using trajectory data",
+      "publisher": "Transportation Research Board 102nd Annual Meeting",
+      "releaseDate": "2023-01-08",
+      "website": "",
+      "summary": "TRB 102nd Annual Meeting"
+    },
+    {
+      "name": "Analysis of left-turn vehicle operation characteristics at intersection using trajectory data",
+      "publisher": "Transportation Research Board 101st Annual Meeting",
+      "releaseDate": "2022-01-09",
+      "website": "",
+      "summary": "TRB 101st Annual Meeting"
+    },
+    {
+      "name": "Traffic Rule-Aware Decision-Making for Automated Vehicles in Pedestrian-Vehicle Conflicts via Deep Reinforcement Learning",
+      "publisher": "Transportation Research Board 105th Annual Meeting",
+      "releaseDate": "2026-01-11",
+      "website": "",
+      "summary": "TRB 105th Annual Meeting"
+    },
+    {
+      "name": "Evaluation, optimization, verification of traffic rules for freeway lane-changing scenarios",
+      "publisher": "Transportation Research Board 105th Annual Meeting",
+      "releaseDate": "2026-01-11",
+      "website": "",
+      "summary": "TRB 105th Annual Meeting"
+    },
+    {
+      "name": "Digitalizing Lane-Changing Traffic Rules for Automated Vehicles in Urban Road Segments: An Evaluation-Optimization-Verification Framework",
+      "publisher": "Transportation Research Board 105th Annual Meeting",
+      "releaseDate": "2026-01-11",
+      "website": "",
+      "summary": "TRB 105th Annual Meeting"
+    },
+    {
+      "name": "A Trajectory Planning Method for Autonomous Vehicles in Conflict Scenarios with Non-motorized Vehicles",
+      "publisher": "Transportation Research Board 104th Annual Meeting",
+      "releaseDate": "2025-01-05",
+      "website": "",
+      "summary": "TRB 104th Annual Meeting"
+    },
+    {
+      "name": "Evaluation, Optimization, Verification of Traffic Rules for Lateral Vehicle-Pedestrian Conflict Scenarios",
+      "publisher": "Transportation Research Board 104th Annual Meeting",
+      "releaseDate": "2025-01-05",
+      "website": "",
+      "summary": "TRB 104th Annual Meeting"
     }
   ],
   "presentations": [
