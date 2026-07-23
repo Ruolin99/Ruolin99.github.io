@@ -35,21 +35,21 @@ redirect_from:
   }
 </style>
 
-<div class="dopamine-card dopamine-card-purple" style="background: linear-gradient(135deg, #F3E8FF 0%, #EFF6FF 100%); border: 2px solid #8B5CF6; padding: 1.4rem 1.8rem; margin-bottom: 2rem;">
+<div class="dopamine-card dopamine-card-teal" style="background: linear-gradient(135deg, #ECFDF5 0%, #F0FDF4 50%, #E6F4EA 100%); border: 2px solid #10B981; padding: 1.4rem 1.8rem; margin-bottom: 2rem;">
   <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.8rem;">
     <div>
-      <span class="dopamine-chip chip-purple" style="font-size: 0.85rem; padding: 0.35rem 0.9rem;">
+      <span class="dopamine-chip chip-teal" style="font-size: 0.85rem; padding: 0.35rem 0.9rem;">
         🚀 Actively Seeking Full-Time Opportunities (毕业求职中)
       </span>
-      <h3 style="font-family: 'Outfit', sans-serif; margin: 0.6rem 0 0.3rem 0; color: #4C1D95; font-size: 1.25rem;">
-        Ph.D. Candidate Graduating Next Year — Open to Roles!
+      <h3 style="font-family: 'Outfit', sans-serif; margin: 0.6rem 0 0.3rem 0; color: #047857; font-size: 1.25rem;">
+        Ph.D. Candidate — Open to Positions & Collaboration!
       </h3>
       <p style="margin: 0; color: #374151; font-size: 0.98rem; line-height: 1.6;">
-        Currently pursuing a Ph.D. degree in Transportation at Tongji University. <strong>明年毕业，正在寻找一份工作，请考虑我吧！</strong><br>
+        Currently pursuing a Ph.D. degree in Transportation at Tongji University. <strong>正在寻找一份工作，请考虑我吧！🥺</strong><br>
         Open to positions in: <strong>Autonomous Driving Decision & Planning, Trajectory Prediction, Postdoc Fellowships, University Faculty, and R&D Research Scientist</strong>.
       </p>
     </div>
-    <a href="mailto:2111224@tongji.edu.cn" class="dopamine-btn btn-paper" style="background: #8B5CF6; color: #FFFFFF !important; padding: 0.6rem 1.2rem; font-size: 0.95rem; border: none; box-shadow: 0 4px 14px rgba(139, 92, 246, 0.3);">
+    <a href="mailto:2111224@tongji.edu.cn" class="dopamine-btn btn-code" style="background: #10B981; color: #FFFFFF !important; padding: 0.6rem 1.2rem; font-size: 0.95rem; border: none; box-shadow: 0 4px 14px rgba(16, 185, 129, 0.3);">
       <i class="fa fa-envelope"></i> Contact Me / 简历联系
     </a>
   </div>
