@@ -46,6 +46,7 @@ redirect_from:
       </h3>
       <p style="margin: 0; color: #374151; font-size: 0.98rem; line-height: 1.6;">
         Currently pursuing a Ph.D. degree in Transportation at Tongji University. <strong>正在寻找一份工作，请考虑我吧！🥺</strong><br>
+        <strong>求职方向：自动驾驶决策与规划、轨迹预测、仿真测试，同时考虑企业研发岗位与高校教职。</strong><br>
         Open to positions in <strong>Autonomous Driving Decision & Planning, Trajectory Prediction, and Simulation Testing</strong>.<br>
         Considering both <strong>industry R&D roles</strong> and <strong>university faculty positions</strong>.
       </p>
