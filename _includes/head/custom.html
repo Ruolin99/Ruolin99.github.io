@@ -36,21 +36,21 @@
 
   /* Header & Navigation Bar Dopamine Styling */
   .masthead {
-    border-bottom: 2px solid rgba(139, 92, 246, 0.15) !important;
-    background: rgba(255, 255, 255, 0.92) !important;
+    border-bottom: 2px solid rgba(139, 92, 246, 0.15);
+    background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
   }
 
   .masthead__menu-item a {
     font-family: 'Outfit', sans-serif;
-    font-weight: 600 !important;
-    font-size: 1.05rem !important;
-    color: #4B5563 !important;
-    transition: all 0.25s ease !important;
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: #374151;
+    transition: all 0.25s ease;
   }
 
   .masthead__menu-item a:hover {
-    color: #8B5CF6 !important;
+    color: #8B5CF6;
     transform: translateY(-1px);
   }
 
@@ -255,51 +255,172 @@
     transform: scale(1.02);
   }
 
-  /* Dark Mode Auto-Adapting Colors for Headings and Content */
-  @media (prefers-color-scheme: dark), body.dark, html[data-theme="dark"], body[data-theme="dark"] {
-    h1, h2, h3, h4, h5, h6 {
-      color: #F9FAFB !important;
+  /* ==========================================================================
+     DARK MODE COMPREHENSIVE AUTOMATIC ADAPTATION
+     ========================================================================== */
+  html[data-theme="dark"],
+  body[data-theme="dark"],
+  html.dark,
+  body.dark,
+  @media (prefers-color-scheme: dark) {
+    /* Global Page Text & Background */
+    body {
+      color: #F3F4F6 !important;
     }
+
+    p, span, li, dt, dd, div {
+      color: #E5E7EB;
+    }
+
+    .archive p, .page__content p {
+      color: #D1D5DB !important;
+    }
+
+    /* All Headings Turn White in Dark Mode */
+    h1, h2, h3, h4, h5, h6 {
+      color: #FFFFFF !important;
+    }
+
+    /* Page Title Gradient in Dark Mode */
+    .page__title, .archive__subtitle {
+      background: linear-gradient(135deg, #FF7597 0%, #C084FC 50%, #60A5FA 100%) !important;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent !important;
+    }
+
+    /* Section Headings in Dark Mode */
     .dopamine-heading {
       color: #F3F4F6 !important;
     }
+
     .cv-section-title {
-      color: #F3F4F6 !important;
-      border-bottom-color: var(--dopamine-purple) !important;
+      color: #F9FAFB !important;
+      border-bottom-color: #A78BFA !important;
     }
+
     .cv-subsection-title {
       color: #E5E7EB !important;
     }
+
+    /* Navbar in Dark Mode */
+    .masthead {
+      background: rgba(30, 41, 59, 0.95) !important;
+      border-bottom-color: rgba(139, 92, 246, 0.3) !important;
+    }
+
+    .masthead__menu-item a {
+      color: #F3F4F6 !important;
+    }
+
+    .masthead__menu-item a:hover {
+      color: #C084FC !important;
+    }
+
+    .greedy-nav {
+      background: transparent !important;
+    }
+
+    /* Sidebar Profile in Dark Mode */
+    .author__name {
+      color: #FFFFFF !important;
+    }
+
+    .author__bio, .author__urls a {
+      color: #E5E7EB !important;
+    }
+
+    /* Dopamine Cards in Dark Mode */
     .dopamine-card {
       background: #1E293B !important;
       border-color: rgba(255, 255, 255, 0.12) !important;
       color: #F3F4F6 !important;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3) !important;
     }
+
     .dopamine-card h1, .dopamine-card h2, .dopamine-card h3, .dopamine-card h4, .dopamine-card h5, .dopamine-card h6 {
       color: #FFFFFF !important;
     }
-    .dopamine-card p, .dopamine-card li, .dopamine-card span {
+
+    .dopamine-card h3 a {
+      color: #F9FAFB !important;
+    }
+
+    .dopamine-card p, .dopamine-card li {
       color: #E5E7EB !important;
     }
+
+    .dopamine-card div[style*="background: #F9FAFB"],
+    .dopamine-card div[style*="background:#F9FAFB"] {
+      background: #0F172A !important;
+      color: #D1D5DB !important;
+    }
+
     .dopamine-card a:not(.dopamine-chip):not(.dopamine-btn) {
       color: #C084FC !important;
     }
+
+    /* News Items in Dark Mode */
     .news-dopamine-item {
       background: #1E293B !important;
       border-color: rgba(255, 255, 255, 0.12) !important;
     }
+
     .news-dopamine-item p {
       color: #F3F4F6 !important;
     }
-    .masthead {
-      background: rgba(15, 23, 42, 0.92) !important;
-      border-bottom-color: rgba(139, 92, 246, 0.3) !important;
+
+    /* Chips in Dark Mode */
+    .chip-coral {
+      background: rgba(244, 63, 94, 0.2) !important;
+      color: #FDA4AF !important;
+      border-color: rgba(244, 63, 94, 0.4) !important;
     }
-    .masthead__menu-item a {
-      color: #E5E7EB !important;
+
+    .chip-purple {
+      background: rgba(139, 92, 246, 0.2) !important;
+      color: #D8B4FE !important;
+      border-color: rgba(139, 92, 246, 0.4) !important;
     }
-    .masthead__menu-item a:hover {
-      color: #C084FC !important;
+
+    .chip-teal {
+      background: rgba(20, 184, 166, 0.2) !important;
+      color: #99F6E4 !important;
+      border-color: rgba(20, 184, 166, 0.4) !important;
+    }
+
+    .chip-amber {
+      background: rgba(245, 158, 11, 0.2) !important;
+      color: #FDE68A !important;
+      border-color: rgba(245, 158, 11, 0.4) !important;
+    }
+
+    .chip-mint {
+      background: rgba(16, 185, 129, 0.2) !important;
+      color: #A7F3D0 !important;
+      border-color: rgba(16, 185, 129, 0.4) !important;
+    }
+
+    /* Action Buttons in Dark Mode */
+    .btn-paper {
+      background: #312E81 !important;
+      color: #E0E7FF !important;
+      border-color: #6366F1 !important;
+    }
+
+    .btn-paper:hover {
+      background: #4338CA !important;
+      color: #FFFFFF !important;
+    }
+
+    .btn-code {
+      background: #064E3B !important;
+      color: #D1FAE5 !important;
+      border-color: #10B981 !important;
+    }
+
+    .btn-code:hover {
+      background: #047857 !important;
+      color: #FFFFFF !important;
     }
   }
 </style>
