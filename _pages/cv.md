@@ -46,7 +46,8 @@ redirect_from:
       </h3>
       <p style="margin: 0; color: #374151; font-size: 0.98rem; line-height: 1.6;">
         Currently pursuing a Ph.D. degree in Transportation at Tongji University. <strong>正在寻找一份工作，请考虑我吧！🥺</strong><br>
-        Open to positions in: <strong>Autonomous Driving Decision & Planning, Trajectory Prediction, Postdoc Fellowships, and University Faculty</strong>.
+        Open to positions in <strong>Autonomous Driving Decision & Planning, Trajectory Prediction, and Simulation Testing</strong>.<br>
+        Considering both <strong>industry R&D roles</strong> and <strong>university faculty positions</strong>.
       </p>
     </div>
     <a href="mailto:2111224@tongji.edu.cn" class="dopamine-btn btn-code" style="background: #10B981; color: #FFFFFF !important; padding: 0.6rem 1.2rem; font-size: 0.95rem; border: none; box-shadow: 0 4px 14px rgba(16, 185, 129, 0.3);">
