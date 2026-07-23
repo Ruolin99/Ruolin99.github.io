@@ -37,22 +37,25 @@ redirect_from:
 
 <div class="dopamine-heading">💡 Research Interests</div>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
-  <div class="dopamine-card dopamine-card-purple" style="margin-bottom: 0;">
-    <h4 style="font-family: 'Outfit', sans-serif; margin-top: 0; margin-bottom: 0.4rem;">🤖 Motion Planning & Decision</h4>
-    <p style="margin: 0; font-size: 0.9rem; line-height: 1.5;">Personalized, rule-compliant trajectory planning for autonomous vehicles in ambiguous traffic.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.2rem; margin-bottom: 2rem;">
+  <div class="dopamine-card dopamine-card-purple" style="margin-bottom: 0; padding: 1.2rem 1.4rem;">
+    <h4 style="font-family: 'Outfit', sans-serif; margin-top: 0; margin-bottom: 0.4rem; font-size: 1.08rem; font-weight: 700;">🤖 Motion Planning & Decision Architecture</h4>
+    <p style="margin: 0; font-size: 0.9rem; line-height: 1.55;">Personalized, rule-compliant trajectory planning for autonomous vehicles in ambiguous traffic scenarios.</p>
   </div>
-  <div class="dopamine-card dopamine-card-pink" style="margin-bottom: 0;">
-    <h4 style="font-family: 'Outfit', sans-serif; margin-top: 0; margin-bottom: 0.4rem;">🚗 Trajectory Prediction</h4>
-    <p style="margin: 0; font-size: 0.9rem; line-height: 1.5;">Rule-priority-aware multi-agent trajectory prediction in complex interaction scenarios.</p>
+
+  <div class="dopamine-card dopamine-card-pink" style="margin-bottom: 0; padding: 1.2rem 1.4rem;">
+    <h4 style="font-family: 'Outfit', sans-serif; margin-top: 0; margin-bottom: 0.4rem; font-size: 1.08rem; font-weight: 700;">🚗 Trajectory Prediction & Interaction</h4>
+    <p style="margin: 0; font-size: 0.9rem; line-height: 1.55;">Rule-priority-aware multi-agent trajectory prediction and intention inference in complex traffic.</p>
   </div>
-  <div class="dopamine-card dopamine-card-amber" style="margin-bottom: 0;">
-    <h4 style="font-family: 'Outfit', sans-serif; margin-top: 0; margin-bottom: 0.4rem;">📜 Traffic Rule Digitization</h4>
-    <p style="margin: 0; font-size: 0.9rem; line-height: 1.5;">Translating traffic laws into machine-executable temporal logic for AV compliance evaluation.</p>
+
+  <div class="dopamine-card dopamine-card-amber" style="margin-bottom: 0; padding: 1.2rem 1.4rem;">
+    <h4 style="font-family: 'Outfit', sans-serif; margin-top: 0; margin-bottom: 0.4rem; font-size: 1.08rem; font-weight: 700;">📜 Traffic Rule Digitization & Optimization</h4>
+    <p style="margin: 0; font-size: 0.9rem; line-height: 1.55;">Translating natural-language traffic regulations into machine-executable temporal logic for AV compliance.</p>
   </div>
-  <div class="dopamine-card dopamine-card-teal" style="margin-bottom: 0;">
-    <h4 style="font-family: 'Outfit', sans-serif; margin-top: 0; margin-bottom: 0.4rem;">🚦 Intersection Conflict Analysis</h4>
-    <p style="margin: 0; font-size: 0.9rem; line-height: 1.5;">Safety conflict extraction, causal factor analysis, and risk identification at intersections.</p>
+
+  <div class="dopamine-card dopamine-card-teal" style="margin-bottom: 0; padding: 1.2rem 1.4rem;">
+    <h4 style="font-family: 'Outfit', sans-serif; margin-top: 0; margin-bottom: 0.4rem; font-size: 1.08rem; font-weight: 700;">🚦 Scenario Identification & Risk Mining</h4>
+    <p style="margin: 0; font-size: 0.9rem; line-height: 1.55;">Scenario identification, typical accident scenario extraction, and rule-compliant corner case mining.</p>
   </div>
 </div>
 

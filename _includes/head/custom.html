@@ -98,6 +98,15 @@
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     overflow: hidden;
+    color: #374151;
+  }
+
+  .dopamine-card h1, .dopamine-card h2, .dopamine-card h3, .dopamine-card h4, .dopamine-card h5, .dopamine-card h6 {
+    color: #1F2937;
+  }
+
+  .dopamine-card p, .dopamine-card li {
+    color: #4B5563;
   }
 
   .dopamine-card::before {
@@ -225,6 +234,10 @@
     transition: all 0.25s ease;
   }
 
+  .news-dopamine-item p {
+    color: #1F2937;
+  }
+
   .news-dopamine-item:hover {
     transform: translateX(4px);
     border-color: var(--dopamine-purple);
@@ -256,171 +269,182 @@
   }
 
   /* ==========================================================================
-     DARK MODE COMPREHENSIVE AUTOMATIC ADAPTATION
+     DARK MODE COMPREHENSIVE AUTOMATIC ADAPTATION (EXPLICIT SITE THEME TOGGLE ONLY)
      ========================================================================== */
   html[data-theme="dark"],
   body[data-theme="dark"],
   html.dark,
   body.dark,
-  @media (prefers-color-scheme: dark) {
+  html[data-theme="dark"] body {
     /* Global Page Text & Background */
-    body {
-      color: #F3F4F6 !important;
-    }
+    color: #F3F4F6 !important;
+  }
 
-    p, span, li, dt, dd, div {
-      color: #E5E7EB;
-    }
+  html[data-theme="dark"] p,
+  html[data-theme="dark"] span,
+  html[data-theme="dark"] li,
+  html[data-theme="dark"] dt,
+  html[data-theme="dark"] dd,
+  html[data-theme="dark"] div {
+    color: #E5E7EB;
+  }
 
-    .archive p, .page__content p {
-      color: #D1D5DB !important;
-    }
+  html[data-theme="dark"] .archive p,
+  html[data-theme="dark"] .page__content p {
+    color: #D1D5DB !important;
+  }
 
-    /* All Headings Turn White in Dark Mode */
-    h1, h2, h3, h4, h5, h6 {
-      color: #FFFFFF !important;
-    }
+  /* All Headings Turn White ONLY in Dark Theme */
+  html[data-theme="dark"] h1,
+  html[data-theme="dark"] h2,
+  html[data-theme="dark"] h3,
+  html[data-theme="dark"] h4,
+  html[data-theme="dark"] h5,
+  html[data-theme="dark"] h6 {
+    color: #FFFFFF !important;
+  }
 
-    /* Page Title Gradient in Dark Mode */
-    .page__title, .archive__subtitle {
-      background: linear-gradient(135deg, #FF7597 0%, #C084FC 50%, #60A5FA 100%) !important;
-      -webkit-background-clip: text !important;
-      -webkit-text-fill-color: transparent !important;
-    }
+  /* Page Title Gradient in Dark Mode */
+  html[data-theme="dark"] .page__title,
+  html[data-theme="dark"] .archive__subtitle {
+    background: linear-gradient(135deg, #FF7597 0%, #C084FC 50%, #60A5FA 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+  }
 
-    /* Section Headings in Dark Mode */
-    .dopamine-heading {
-      color: #F3F4F6 !important;
-    }
+  /* Section Headings in Dark Mode */
+  html[data-theme="dark"] .dopamine-heading {
+    color: #F3F4F6 !important;
+  }
 
-    .cv-section-title {
-      color: #F9FAFB !important;
-      border-bottom-color: #A78BFA !important;
-    }
+  html[data-theme="dark"] .cv-section-title {
+    color: #F9FAFB !important;
+    border-bottom-color: #A78BFA !important;
+  }
 
-    .cv-subsection-title {
-      color: #E5E7EB !important;
-    }
+  html[data-theme="dark"] .cv-subsection-title {
+    color: #E5E7EB !important;
+  }
 
-    /* Navbar in Dark Mode */
-    .masthead {
-      background: rgba(30, 41, 59, 0.95) !important;
-      border-bottom-color: rgba(139, 92, 246, 0.3) !important;
-    }
+  /* Navbar in Dark Mode */
+  html[data-theme="dark"] .masthead {
+    background: rgba(30, 41, 59, 0.95) !important;
+    border-bottom-color: rgba(139, 92, 246, 0.3) !important;
+  }
 
-    .masthead__menu-item a {
-      color: #F3F4F6 !important;
-    }
+  html[data-theme="dark"] .masthead__menu-item a {
+    color: #F3F4F6 !important;
+  }
 
-    .masthead__menu-item a:hover {
-      color: #C084FC !important;
-    }
+  html[data-theme="dark"] .masthead__menu-item a:hover {
+    color: #C084FC !important;
+  }
 
-    .greedy-nav {
-      background: transparent !important;
-    }
+  html[data-theme="dark"] .greedy-nav {
+    background: transparent !important;
+  }
 
-    /* Sidebar Profile in Dark Mode */
-    .author__name {
-      color: #FFFFFF !important;
-    }
+  /* Sidebar Profile in Dark Mode */
+  html[data-theme="dark"] .author__name {
+    color: #FFFFFF !important;
+  }
 
-    .author__bio, .author__urls a {
-      color: #E5E7EB !important;
-    }
+  html[data-theme="dark"] .author__bio,
+  html[data-theme="dark"] .author__urls a {
+    color: #E5E7EB !important;
+  }
 
-    /* Dopamine Cards in Dark Mode */
-    .dopamine-card {
-      background: #1E293B !important;
-      border-color: rgba(255, 255, 255, 0.12) !important;
-      color: #F3F4F6 !important;
-      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3) !important;
-    }
+  /* Dopamine Cards in Dark Mode */
+  html[data-theme="dark"] .dopamine-card {
+    background: #1E293B !important;
+    border-color: rgba(255, 255, 255, 0.12) !important;
+    color: #F3F4F6 !important;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3) !important;
+  }
 
-    .dopamine-card h1, .dopamine-card h2, .dopamine-card h3, .dopamine-card h4, .dopamine-card h5, .dopamine-card h6 {
-      color: #FFFFFF !important;
-    }
+  html[data-theme="dark"] .dopamine-card h1,
+  html[data-theme="dark"] .dopamine-card h2,
+  html[data-theme="dark"] .dopamine-card h3,
+  html[data-theme="dark"] .dopamine-card h4,
+  html[data-theme="dark"] .dopamine-card h5,
+  html[data-theme="dark"] .dopamine-card h6 {
+    color: #FFFFFF !important;
+  }
 
-    .dopamine-card h3 a {
-      color: #F9FAFB !important;
-    }
+  html[data-theme="dark"] .dopamine-card h3 a {
+    color: #F9FAFB !important;
+  }
 
-    .dopamine-card p, .dopamine-card li {
-      color: #E5E7EB !important;
-    }
+  html[data-theme="dark"] .dopamine-card p,
+  html[data-theme="dark"] .dopamine-card li {
+    color: #E5E7EB !important;
+  }
 
-    .dopamine-card div[style*="background: #F9FAFB"],
-    .dopamine-card div[style*="background:#F9FAFB"] {
-      background: #0F172A !important;
-      color: #D1D5DB !important;
-    }
+  html[data-theme="dark"] .dopamine-card a:not(.dopamine-chip):not(.dopamine-btn) {
+    color: #C084FC !important;
+  }
 
-    .dopamine-card a:not(.dopamine-chip):not(.dopamine-btn) {
-      color: #C084FC !important;
-    }
+  /* News Items in Dark Mode */
+  html[data-theme="dark"] .news-dopamine-item {
+    background: #1E293B !important;
+    border-color: rgba(255, 255, 255, 0.12) !important;
+  }
 
-    /* News Items in Dark Mode */
-    .news-dopamine-item {
-      background: #1E293B !important;
-      border-color: rgba(255, 255, 255, 0.12) !important;
-    }
+  html[data-theme="dark"] .news-dopamine-item p {
+    color: #F3F4F6 !important;
+  }
 
-    .news-dopamine-item p {
-      color: #F3F4F6 !important;
-    }
+  /* Chips in Dark Mode */
+  html[data-theme="dark"] .chip-coral {
+    background: rgba(244, 63, 94, 0.2) !important;
+    color: #FDA4AF !important;
+    border-color: rgba(244, 63, 94, 0.4) !important;
+  }
 
-    /* Chips in Dark Mode */
-    .chip-coral {
-      background: rgba(244, 63, 94, 0.2) !important;
-      color: #FDA4AF !important;
-      border-color: rgba(244, 63, 94, 0.4) !important;
-    }
+  html[data-theme="dark"] .chip-purple {
+    background: rgba(139, 92, 246, 0.2) !important;
+    color: #D8B4FE !important;
+    border-color: rgba(139, 92, 246, 0.4) !important;
+  }
 
-    .chip-purple {
-      background: rgba(139, 92, 246, 0.2) !important;
-      color: #D8B4FE !important;
-      border-color: rgba(139, 92, 246, 0.4) !important;
-    }
+  html[data-theme="dark"] .chip-teal {
+    background: rgba(20, 184, 166, 0.2) !important;
+    color: #99F6E4 !important;
+    border-color: rgba(20, 184, 166, 0.4) !important;
+  }
 
-    .chip-teal {
-      background: rgba(20, 184, 166, 0.2) !important;
-      color: #99F6E4 !important;
-      border-color: rgba(20, 184, 166, 0.4) !important;
-    }
+  html[data-theme="dark"] .chip-amber {
+    background: rgba(245, 158, 11, 0.2) !important;
+    color: #FDE68A !important;
+    border-color: rgba(245, 158, 11, 0.4) !important;
+  }
 
-    .chip-amber {
-      background: rgba(245, 158, 11, 0.2) !important;
-      color: #FDE68A !important;
-      border-color: rgba(245, 158, 11, 0.4) !important;
-    }
+  html[data-theme="dark"] .chip-mint {
+    background: rgba(16, 185, 129, 0.2) !important;
+    color: #A7F3D0 !important;
+    border-color: rgba(16, 185, 129, 0.4) !important;
+  }
 
-    .chip-mint {
-      background: rgba(16, 185, 129, 0.2) !important;
-      color: #A7F3D0 !important;
-      border-color: rgba(16, 185, 129, 0.4) !important;
-    }
+  /* Action Buttons in Dark Mode */
+  html[data-theme="dark"] .btn-paper {
+    background: #312E81 !important;
+    color: #E0E7FF !important;
+    border-color: #6366F1 !important;
+  }
 
-    /* Action Buttons in Dark Mode */
-    .btn-paper {
-      background: #312E81 !important;
-      color: #E0E7FF !important;
-      border-color: #6366F1 !important;
-    }
+  html[data-theme="dark"] .btn-paper:hover {
+    background: #4338CA !important;
+    color: #FFFFFF !important;
+  }
 
-    .btn-paper:hover {
-      background: #4338CA !important;
-      color: #FFFFFF !important;
-    }
+  html[data-theme="dark"] .btn-code {
+    background: #064E3B !important;
+    color: #D1FAE5 !important;
+    border-color: #10B981 !important;
+  }
 
-    .btn-code {
-      background: #064E3B !important;
-      color: #D1FAE5 !important;
-      border-color: #10B981 !important;
-    }
-
-    .btn-code:hover {
-      background: #047857 !important;
-      color: #FFFFFF !important;
-    }
+  html[data-theme="dark"] .btn-code:hover {
+    background: #047857 !important;
+    color: #FFFFFF !important;
   }
 </style>
