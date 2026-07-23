@@ -63,6 +63,19 @@ redirect_from:
 
 <div style="margin-top: 1rem;">
   <div class="news-dopamine-item">
+    <span class="dopamine-chip chip-coral">2026</span>
+    <div style="flex: 1;">
+      <p style="margin: 0; line-height: 1.5;">
+        Our paper <em>"Traffic Rule-Embedded Decision-Making for Automated Vehicles in Pedestrian-Vehicle Conflicts via Deep Reinforcement Learning"</em> has been published in <strong>Accident Analysis & Prevention</strong>! 🎉
+      </p>
+      <div style="margin-top: 0.4rem;">
+        <a href="https://www.sciencedirect.com/science/article/pii/S000145752600271X" target="_blank" class="dopamine-btn btn-paper">
+          <i class="fa fa-file-text-o"></i> Paper Link
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="news-dopamine-item">
     <span class="dopamine-chip chip-amber">2026</span>
     <div style="flex: 1;">
       <p style="margin: 0; line-height: 1.5;">
