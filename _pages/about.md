@@ -106,6 +106,11 @@ redirect_from:
       <p style="margin: 0; line-height: 1.5; color: #1F2937;">
         Our paper <em>"MemEA: Memory-enhanced adaptive planner for rule-compliant driving with user preferences"</em> will be presented at the <strong>2026 World Transport Convention (WTC)</strong>! 🎉
       </p>
+      <div style="margin-top: 0.4rem;">
+        <a href="https://mm.wtc-conference.com/paper/pr9013.html" target="_blank" class="dopamine-btn btn-paper">
+          <i class="fa fa-file-text-o"></i> Paper Link
+        </a>
+      </div>
     </div>
   </div>
 

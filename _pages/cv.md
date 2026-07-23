@@ -86,12 +86,11 @@ redirect_from:
 4. Wang Xuesong, **Shi Ruolin**, Leich Andreas, et al. Conflict extraction and characteristics analysis at signalized intersections using trajectory data [J]. *International Journal of Transportation Science and Technology*, 2025, 20: 300-320. (ESCI, IF: 5.1, 中科院二区) [[Paper](https://www.sciencedirect.com/science/article/pii/S2046043025000012)] [[Code](https://github.com/Ruolin99/Two-step-trajectory-reconstruction)]
 5. Xiaoyan Xu, Xuesong Wang, **Ruolin Shi**. Examining Causal Factors of Traffic Conflicts at Intersections Using Vehicle Trajectory Data [J]. *International Journal of Transportation Science and Technology*, 2024. (ESCI, IF: 5.1, 中科院二区) [[Paper](https://www.sciencedirect.com/science/article/pii/S204604302400001X)]
 6. 王雪松, **石若琳**, 符辰铭, 等. 面向自动驾驶系统的交通规则建模研究进展 [J/OL]. *中国公路学报*, 2026. (EI) [[Paper](https://zgglxb.chd.edu.cn/CN/10.19721/j.cnki.1001-7372.2026.03.014)]
-7. **Shi Ruolin**, Wang Xuesong, Zhu Meixin, et al. MemEA: Memory-enhanced adaptive planner for rule-compliant driving with user preferences [J]. *Transportation Research Part C: Emerging Technologies*, 2026. (一审中)
-8. **石若琳**, 王雪松. 面向自动驾驶的交叉口关键合规风险场景识别 [J]. *中国公路学报*, 2026. (一审中)
+7. **石若琳**, 王雪松. 面向自动驾驶的交叉口关键合规风险场景识别 [J]. *中国公路学报*, 2026. (一审中)
 
 <div class="cv-section-title">Conference Papers (会议论文)</div>
 
-1. **Shi Ruolin**, Wang Xuesong, Zhu Meixin, et al. MemEA: Memory-enhanced adaptive planner for rule-compliant driving with user preferences [C]. *Proceedings of the 2026 World Transport Convention*. Tianjin, China, 2026.6.2-3.
+1. **Shi Ruolin**, Wang Xuesong, Zhu Meixin, et al. MemEA: Memory-enhanced adaptive planner for rule-compliant driving with user preferences [C]. *Proceedings of the 2026 World Transport Convention*. Tianjin, China, 2026.6.2-3. [[Paper](https://mm.wtc-conference.com/paper/pr9013.html)]
 2. **Shi Ruolin**, Wang Xuesong, Zhou Yang, et al. Adaptive multi-target trajectory prediction with priority evaluation of ambiguous traffic rules in interactive scenarios [C]. *Transportation Research Board 104th Annual Meeting*. Washington D.C., USA, 2025.1.5-9.
 3. **Shi Ruolin**, Wang Xuesong, Zhu Mixing, et al. Digitized traffic rules guided trajectory planning: A case study of right-turn scenario [C]. *Transportation Research Board 103rd Annual Meeting*. Washington D.C., USA, 2024.1.7-11.
 4. **Shi Ruolin**, Wang Xuesong, Leich Andreas, et al. Analysis of right-turning vehicle operation characteristics at intersections using trajectory data [C]. *Transportation Research Board 102nd Annual Meeting*. Washington D.C., USA, 2023.1.8-12.

@@ -254,4 +254,52 @@
   .talk-media-img:hover {
     transform: scale(1.02);
   }
+
+  /* Dark Mode Auto-Adapting Colors for Headings and Content */
+  @media (prefers-color-scheme: dark), body.dark, html[data-theme="dark"], body[data-theme="dark"] {
+    h1, h2, h3, h4, h5, h6 {
+      color: #F9FAFB !important;
+    }
+    .dopamine-heading {
+      color: #F3F4F6 !important;
+    }
+    .cv-section-title {
+      color: #F3F4F6 !important;
+      border-bottom-color: var(--dopamine-purple) !important;
+    }
+    .cv-subsection-title {
+      color: #E5E7EB !important;
+    }
+    .dopamine-card {
+      background: #1E293B !important;
+      border-color: rgba(255, 255, 255, 0.12) !important;
+      color: #F3F4F6 !important;
+    }
+    .dopamine-card h1, .dopamine-card h2, .dopamine-card h3, .dopamine-card h4, .dopamine-card h5, .dopamine-card h6 {
+      color: #FFFFFF !important;
+    }
+    .dopamine-card p, .dopamine-card li, .dopamine-card span {
+      color: #E5E7EB !important;
+    }
+    .dopamine-card a:not(.dopamine-chip):not(.dopamine-btn) {
+      color: #C084FC !important;
+    }
+    .news-dopamine-item {
+      background: #1E293B !important;
+      border-color: rgba(255, 255, 255, 0.12) !important;
+    }
+    .news-dopamine-item p {
+      color: #F3F4F6 !important;
+    }
+    .masthead {
+      background: rgba(15, 23, 42, 0.92) !important;
+      border-bottom-color: rgba(139, 92, 246, 0.3) !important;
+    }
+    .masthead__menu-item a {
+      color: #E5E7EB !important;
+    }
+    .masthead__menu-item a:hover {
+      color: #C084FC !important;
+    }
+  }
 </style>
