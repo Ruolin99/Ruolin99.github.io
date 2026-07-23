@@ -5,32 +5,69 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
+<div class="archive">
+  <p style="color: #6B7280; font-size: 1.05rem; margin-bottom: 2rem;">
+    Peer-reviewed journal articles, international conference proceedings, and digitized traffic rule frameworks.
+    {% if site.author.googlescholar %}
+      Explore all articles on <a href="{{site.author.googlescholar}}" style="color: #8B5CF6; font-weight: 600;">Google Scholar</a>.
+    {% endif %}
+  </p>
+
+  <div class="dopamine-heading" style="color: #6D28D9;">
+    📚 Selected Publications & Frameworks
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 1.2rem; margin-top: 1rem;">
+    {% assign pubs_sorted = site.publications | sort: 'date' | reverse %}
+    {% for post in pubs_sorted %}
+      <div class="dopamine-card dopamine-card-purple">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem; flex-wrap: wrap; gap: 0.4rem;">
+          <span class="dopamine-chip chip-coral">
+            <i class="fa fa-book" aria-hidden="true"></i> {{ post.venue }}
+          </span>
+          <span style="font-size: 0.85rem; font-weight: 600; color: #8B5CF6;">
+            {{ post.date | date: '%Y' }}
+          </span>
+        </div>
+
+        <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.2rem; font-weight: 700; margin-top: 0.4rem; margin-bottom: 0.6rem; line-height: 1.4;">
+          <a href="{{ base_path }}{{ post.url }}" style="color: #1F2937; text-decoration: none;">
+            {{ post.title }}
+          </a>
+        </h3>
+
+        {% if post.citation %}
+          <p style="font-size: 0.92rem; color: #4B5563; line-height: 1.6; margin-bottom: 0.8rem;">
+            {{ post.citation }}
+          </p>
+        {% endif %}
+
+        {% if post.excerpt %}
+          <p style="font-size: 0.9rem; color: #6B7280; line-height: 1.5; margin-bottom: 0.8rem; background: #F9FAFB; padding: 0.6rem 0.8rem; border-radius: 8px;">
+            {{ post.excerpt | strip_html }}
+          </p>
+        {% endif %}
+
+        <div style="display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; margin-top: 0.6rem;">
+          {% if post.paperurl %}
+            <a href="{{ post.paperurl }}" target="_blank" class="dopamine-btn btn-paper">
+              <i class="fa fa-file-text-o"></i> Read Paper
+            </a>
+          {% endif %}
+
+          {% if post.codeurl %}
+            <a href="{{ post.codeurl }}" target="_blank" class="dopamine-btn btn-code">
+              <i class="fa fa-github"></i> Source Code
+            </a>
+          {% endif %}
+
+          <a href="{{ base_path }}{{ post.url }}" class="dopamine-btn" style="background: #F3E8FF; color: #7E22CE; border-color: #D8B4FE;">
+            <i class="fa fa-info-circle"></i> Details & Framework
+          </a>
+        </div>
+      </div>
     {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+  </div>
+</div>

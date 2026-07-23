@@ -98,7 +98,7 @@ redirect_from:
 1. **2026.07.17**: *MemEA: Memory Enhanced Adaptive Planner for Rule-Compliant Driving with User Preferences*, 第十一届国际交通安全研讨会 (The 11th International Symposium on Transportation Safety), 上海, 中国.
 2. **2026.06.03**: *MemEA: Memory Enhanced Adaptive Planner for Rule-Compliant Driving with User Preferences*, 世界交通运输大会 (WTC 2026), 天津, China.
 3. **2025.12.25**: 特邀报告《面向自动驾驶的交通规则优化研究》, 第五届“交通青年说”学术沙龙（上海市交通工程学会青年工作委员会主办，交通安全与法制专委会推荐）, 上海市科学会堂, 上海, 中国.
-4. **2025.07.27**: 《数字化交通规则引导自动驾驶轨迹规划研究》, 第十届国际交通安全研讨会 (The 10th International Symposium on Transportation Safety), 上海, 中国.
+4. **2025.07.27**: *Digitizing Traffic Rules to Guide Automated Vehicle Trajectory Planning*, 第十届国际交通安全研讨会 (The 10th International Symposium on Transportation Safety), 上海, 中国.
 5. **2025.06.11**: 《考虑交通规则的交叉口右转轨迹规划研究》, 《道路交通安全法》如何“计算”学术研讨会, 上海, 中国.
 
 <div class="cv-subsection-title">Poster Presentations (海报交流)</div>

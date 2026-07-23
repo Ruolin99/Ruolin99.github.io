@@ -1,16 +1,93 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks & Presentations"
 permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+{% include base_path %}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+<div class="archive">
+  <p style="color: #6B7280; font-size: 1.05rem; margin-bottom: 2rem;">
+    Keynote speeches, oral presentations at international conferences, invited talks, and academic poster sessions.
+  </p>
 
-{% endif %}
+  <!-- Section 1: Oral & Invited Presentations -->
+  <div class="dopamine-heading" style="color: #6D28D9;">
+    🎤 Oral & Invited Presentations (口头汇报与特邀报告)
+  </div>
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+  <div class="talk-card-grid">
+    {% assign talks_sorted = site.talks | sort: 'date' | reverse %}
+    {% for talk in talks_sorted %}
+      {% if talk.type contains "Oral" %}
+        <div class="dopamine-card dopamine-card-purple">
+          <div style="display: flex; justify-space: space-between; align-items: center; margin-bottom: 0.5rem;">
+            <span class="dopamine-chip chip-purple">
+              <i class="fa fa-microphone" aria-hidden="true"></i> {{ talk.type }}
+            </span>
+            <span style="font-size: 0.85rem; font-weight: 600; color: #8B5CF6;">
+              {{ talk.date | date: '%Y.%m.%d' }}
+            </span>
+          </div>
+
+          <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.15rem; font-weight: 700; margin-top: 0.5rem; margin-bottom: 0.4rem; line-height: 1.4;">
+            <a href="{{ base_path }}{{ talk.url }}" style="color: #1F2937; text-decoration: none;">
+              {{ talk.title }}
+            </a>
+          </h3>
+
+          <p style="font-size: 0.9rem; color: #4B5563; margin-bottom: 0.6rem;">
+            <i class="fa fa-university" style="color: #8B5CF6;"></i> <strong>{{ talk.venue }}</strong><br>
+            <i class="fa fa-map-marker" style="color: #EC4899;"></i> {{ talk.location }}
+          </p>
+
+          {% if talk.teaser %}
+            <a href="{{ base_path }}{{ talk.url }}">
+              <img src="{{ base_path }}{{ talk.teaser }}" class="talk-media-img" alt="{{ talk.title }}">
+            </a>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <!-- Section 2: Poster Presentations -->
+  <div class="dopamine-heading" style="color: #0F766E; margin-top: 2.5rem;">
+    🖼️ Poster Presentations (海报交流)
+  </div>
+
+  <div class="talk-card-grid">
+    {% for talk in talks_sorted %}
+      {% if talk.type contains "Poster" %}
+        <div class="dopamine-card dopamine-card-teal">
+          <div style="display: flex; justify-space: space-between; align-items: center; margin-bottom: 0.5rem;">
+            <span class="dopamine-chip chip-teal">
+              <i class="fa fa-picture-o" aria-hidden="true"></i> {{ talk.type }}
+            </span>
+            <span style="font-size: 0.85rem; font-weight: 600; color: #0D9488;">
+              {{ talk.date | date: '%Y.%m' }}
+            </span>
+          </div>
+
+          <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.1rem; font-weight: 700; margin-top: 0.5rem; margin-bottom: 0.4rem; line-height: 1.4;">
+            <a href="{{ base_path }}{{ talk.url }}" style="color: #1F2937; text-decoration: none;">
+              {{ talk.title }}
+            </a>
+          </h3>
+
+          <p style="font-size: 0.9rem; color: #4B5563; margin-bottom: 0.6rem;">
+            <i class="fa fa-university" style="color: #0D9488;"></i> <strong>{{ talk.venue }}</strong><br>
+            <i class="fa fa-map-marker" style="color: #F59E0B;"></i> {{ talk.location }}
+          </p>
+
+          {% if talk.teaser %}
+            <a href="{{ base_path }}{{ talk.url }}">
+              <img src="{{ base_path }}{{ talk.teaser }}" class="talk-media-img" alt="{{ talk.title }}">
+            </a>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
