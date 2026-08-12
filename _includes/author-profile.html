@@ -181,10 +181,14 @@
 
     <!-- Dopamine Continuous Clap/Like Widget -->
     <div class="author__applause">
-      <button id="dopamine-like-btn" class="dopamine-like-button" type="button" aria-label="Like button">
+      <div id="dopamine-like-btn" 
+           class="dopamine-like-button" 
+           role="button" 
+           tabindex="0" 
+           onclick="if(window.handleDopamineLike){window.handleDopamineLike(event, this);}">
         <span class="like-icon">👏</span>
-        <span id="dopamine-like-count" class="like-count">88</span>
-      </button>
+        <span id="dopamine-like-count" class="like-count">99</span>
+      </div>
       <span class="author__applause-text lang-en">Click / Clap 👏</span>
       <span class="author__applause-text lang-cn">给作者点赞 👏</span>
     </div>
