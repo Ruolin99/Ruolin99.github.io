@@ -24,8 +24,12 @@ author:
   # Biographic information
   avatar           : "favicon-512x512.png"
   name             : "Ruolin Shi (石若琳)"
+  name_en          : "Ruolin Shi"
+  name_cn          : "石若琳"
   pronouns         : # example: "she/her"
-  bio              : "Currently pursuing a Ph.D. degree in Transportation at Tongji University. 🎓<br>我计划2027年毕业，正在寻找一份工作，请考虑我吧！🥺<br>(Planning to graduate in 2027 & actively seeking job opportunities! 🥺)"
+  bio_en           : "Ph.D. Candidate in Transportation Engineering at Tongji University 🎓<br>Planning to graduate in 2027 & actively seeking job opportunities! 🥺"
+  bio_cn           : "同济大学交通运输工程专业博士在读 🎓<br>计划2027年毕业，正在寻找合适的工作岗位，诚挚期待您的关注与联系！🥺"
+  bio              : "同济大学交通运输工程专业博士在读 🎓<br>计划2027年毕业，正在寻找合适的工作岗位，诚挚期待您的关注与联系！🥺"
   location         : "Shanghai, China"
   employer         : "Tongji University"
   uri              : # URL

@@ -9,14 +9,22 @@ author_profile: true
 
 <div class="archive">
   <p style="font-size: 1.05rem; margin-bottom: 2rem;" class="archive-intro-text">
-    Peer-reviewed journal articles, international conference proceedings, and digitized traffic rule frameworks.
-    {% if site.author.googlescholar %}
-      Explore all articles on <a href="{{site.author.googlescholar}}" style="color: #8B5CF6; font-weight: 600;">Google Scholar</a>.
-    {% endif %}
+    <span class="lang-en">
+      Peer-reviewed journal articles, international conference proceedings, and digitized traffic rule frameworks.
+      {% if site.author.googlescholar %}
+        Explore all articles on <a href="{{site.author.googlescholar}}" style="color: #8B5CF6; font-weight: 600;">Google Scholar</a>.
+      {% endif %}
+    </span>
+    <span class="lang-cn">
+      同行评审期刊论文、国际会议论文及数字化交通规则框架。
+      {% if site.author.googlescholar %}
+        欢迎在 <a href="{{site.author.googlescholar}}" style="color: #8B5CF6; font-weight: 600;">Google Scholar</a> 上查看全部发表论文。
+      {% endif %}
+    </span>
   </p>
 
   <div class="dopamine-heading">
-    📚 Selected Publications & Frameworks
+    📚 <span class="lang-en">Selected Publications & Frameworks</span><span class="lang-cn">发表论文与框架</span>
   </div>
 
   <div style="display: flex; flex-direction: column; gap: 1.2rem; margin-top: 1rem;">
@@ -53,18 +61,18 @@ author_profile: true
         <div style="display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; margin-top: 0.6rem;">
           {% if post.paperurl %}
             <a href="{{ post.paperurl }}" target="_blank" class="dopamine-btn btn-paper">
-              <i class="fa fa-file-text-o"></i> Read Paper
+              <i class="fa fa-file-text-o"></i> <span class="lang-en">Read Paper</span><span class="lang-cn">查看论文</span>
             </a>
           {% endif %}
 
           {% if post.codeurl %}
             <a href="{{ post.codeurl }}" target="_blank" class="dopamine-btn btn-code">
-              <i class="fa fa-github"></i> Source Code
+              <i class="fa fa-github"></i> <span class="lang-en">Source Code</span><span class="lang-cn">开源代码</span>
             </a>
           {% endif %}
 
           <a href="{{ base_path }}{{ post.url }}" class="dopamine-btn btn-paper">
-            <i class="fa fa-info-circle"></i> Details & Framework
+            <i class="fa fa-info-circle"></i> <span class="lang-en">Details & Framework</span><span class="lang-cn">详细介绍</span>
           </a>
         </div>
       </div>

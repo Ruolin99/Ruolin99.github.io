@@ -9,18 +9,23 @@
 
 main:
   - title: "About"
+    title_cn: "关于"
     url: /
 
   - title: "Publications"
+    title_cn: "学术论文"
     url: /publications/
 
   - title: "Talks"
+    title_cn: "学术报告"
     url: /talks/
 
   - title: "Hobbies"
+    title_cn: "兴趣生活"
     url: /hobbies/
 
   - title: "CV"
+    title_cn: "个人简历"
     url: /cv/
 
   # - title: "Teaching"

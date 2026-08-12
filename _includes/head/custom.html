@@ -447,4 +447,44 @@
     background: #047857 !important;
     color: #FFFFFF !important;
   }
+
+  /* Language Switcher CSS Visibility Controls */
+  html[data-lang="cn"] .lang-en { display: none !important; }
+  html[data-lang="en"] .lang-cn { display: none !important; }
+
+  .lang-toggle-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem 0.65rem;
+    border-radius: 999px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    background: linear-gradient(135deg, #F3E8FF, #E0E7FF);
+    color: #6D28D9 !important;
+    border: 1px solid #C084FC;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    user-select: none;
+    text-decoration: none !important;
+  }
+
+  .lang-toggle-pill:hover {
+    transform: scale(1.05);
+    background: #6D28D9;
+    color: #FFFFFF !important;
+    box-shadow: 0 4px 12px rgba(109, 40, 217, 0.3);
+  }
+
+  html[data-theme="dark"] .lang-toggle-pill {
+    background: rgba(139, 92, 246, 0.25) !important;
+    color: #D8B4FE !important;
+    border-color: rgba(192, 132, 252, 0.5) !important;
+  }
+
+  html[data-theme="dark"] .lang-toggle-pill:hover {
+    background: #8B5CF6 !important;
+    color: #FFFFFF !important;
+  }
 </style>

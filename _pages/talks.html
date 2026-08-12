@@ -9,12 +9,13 @@ author_profile: true
 
 <div class="archive">
   <p style="font-size: 1.05rem; margin-bottom: 2rem;">
-    Keynote speeches, oral presentations at international conferences, invited talks, and academic poster sessions.
+    <span class="lang-en">Keynote speeches, oral presentations at international conferences, invited talks, and academic poster sessions.</span>
+    <span class="lang-cn">主旨报告、国际会议口头汇报、特邀报告及学术海报交流。</span>
   </p>
 
   <!-- Section 1: Oral & Invited Presentations -->
   <div class="dopamine-heading">
-    🎤 Oral & Invited Presentations (口头汇报与特邀报告)
+    🎤 <span class="lang-en">Oral & Invited Presentations</span><span class="lang-cn">口头汇报与特邀报告</span>
   </div>
 
   <div class="talk-card-grid">
@@ -37,9 +38,11 @@ author_profile: true
             </a>
           </h3>
 
-          <p style="font-size: 0.9rem; margin-bottom: 0.6rem;">
-            <strong>Venue:</strong> {{ talk.venue }} ({{ talk.location }})
-          </p>
+          {% if talk.venue %}
+            <p style="font-size: 0.9rem; margin-bottom: 0.6rem;">
+              <strong><span class="lang-en">Venue:</span><span class="lang-cn">地点/会议：</span></strong> {{ talk.venue }} ({{ talk.location }})
+            </p>
+          {% endif %}
 
           {% if talk.teaser %}
             <img src="{{ base_path }}{{ talk.teaser }}" class="talk-media-img" alt="{{ talk.title }}">
@@ -47,7 +50,7 @@ author_profile: true
 
           <div style="margin-top: 0.8rem;">
             <a href="{{ base_path }}{{ talk.url }}" class="dopamine-btn btn-paper">
-              <i class="fa fa-info-circle"></i> Talk Details
+              <i class="fa fa-info-circle"></i> <span class="lang-en">Talk Details</span><span class="lang-cn">报告详情</span>
             </a>
           </div>
         </div>
@@ -57,7 +60,7 @@ author_profile: true
 
   <!-- Section 2: Academic Poster Presentations -->
   <div class="dopamine-heading" style="margin-top: 2.5rem;">
-    📌 Poster Presentations & Academic Exchange (海报交流)
+    📌 <span class="lang-en">Poster Presentations & Academic Exchange</span><span class="lang-cn">海报交流与学术研讨</span>
   </div>
 
   <div class="talk-card-grid">
@@ -79,9 +82,11 @@ author_profile: true
             </a>
           </h3>
 
-          <p style="font-size: 0.88rem; margin-bottom: 0.6rem;">
-            <strong>Event:</strong> {{ talk.venue }} ({{ talk.location }})
-          </p>
+          {% if talk.venue %}
+            <p style="font-size: 0.88rem; margin-bottom: 0.6rem;">
+              <strong><span class="lang-en">Event:</span><span class="lang-cn">会议活动：</span></strong> {{ talk.venue }} ({{ talk.location }})
+            </p>
+          {% endif %}
 
           {% if talk.teaser %}
             <img src="{{ base_path }}{{ talk.teaser }}" class="talk-media-img" alt="{{ talk.title }}">
@@ -89,7 +94,7 @@ author_profile: true
 
           <div style="margin-top: 0.8rem;">
             <a href="{{ base_path }}{{ talk.url }}" class="dopamine-btn btn-code">
-              <i class="fa fa-search"></i> View Poster Details
+              <i class="fa fa-search"></i> <span class="lang-en">View Poster Details</span><span class="lang-cn">查看海报详情</span>
             </a>
           </div>
         </div>
