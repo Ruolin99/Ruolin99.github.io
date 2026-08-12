@@ -67,6 +67,20 @@ redirect_from:
       <span class="dopamine-chip chip-coral">2026</span>
       <div style="flex: 1;">
         <p style="margin: 0; line-height: 1.5;">
+          Our paper <em>"Beyond Physical Risk: Identifying Compliance-Critical Intersection Scenarios through Traffic-Rule Complexity Quantification"</em> is currently under review! 🎉
+        </p>
+        <div style="margin-top: 0.4rem;">
+          <a href="https://github.com/Ruolin99/CCS-Bench" target="_blank" class="dopamine-btn btn-code">
+            <i class="fa fa-code"></i> Code (CCS-Bench)
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="news-dopamine-item">
+      <span class="dopamine-chip chip-coral">2026</span>
+      <div style="flex: 1;">
+        <p style="margin: 0; line-height: 1.5;">
           Our paper <em>"Evaluation, optimization, verification of traffic rules for automated vehicles in freeway lane-changing scenario"</em> has been published in <strong>Accident Analysis & Prevention</strong>! 🎉
         </p>
         <div style="margin-top: 0.4rem;">
@@ -224,6 +238,20 @@ redirect_from:
   <div class="dopamine-heading">🔥 最新动态与成果</div>
 
   <div style="margin-top: 1rem;">
+    <div class="news-dopamine-item">
+      <span class="dopamine-chip chip-coral">2026</span>
+      <div style="flex: 1;">
+        <p style="margin: 0; line-height: 1.5;">
+          论文 <em>"Beyond Physical Risk: Identifying Compliance-Critical Intersection Scenarios through Traffic-Rule Complexity Quantification"</em> 正在投递中！🎉
+        </p>
+        <div style="margin-top: 0.4rem;">
+          <a href="https://github.com/Ruolin99/CCS-Bench" target="_blank" class="dopamine-btn btn-code">
+            <i class="fa fa-code"></i> 开源代码 (CCS-Bench)
+          </a>
+        </div>
+      </div>
+    </div>
+
     <div class="news-dopamine-item">
       <span class="dopamine-chip chip-coral">2026</span>
       <div style="flex: 1;">
