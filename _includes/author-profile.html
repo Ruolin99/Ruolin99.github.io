@@ -179,10 +179,13 @@
       {% endif %}      
     </ul>
 
-    <!-- Applause Button (Sidebar Like Record) -->
+    <!-- Dopamine Continuous Clap/Like Widget -->
     <div class="author__applause">
-      <applause-button url="https://ruolin99.github.io" color="#8B5CF6" multiclap="true"></applause-button>
-      <span class="author__applause-text lang-en">Like / Clap 👏</span>
+      <button id="dopamine-like-btn" class="dopamine-like-button" type="button" aria-label="Like button">
+        <span class="like-icon">👏</span>
+        <span id="dopamine-like-count" class="like-count">88</span>
+      </button>
+      <span class="author__applause-text lang-en">Click / Clap 👏</span>
       <span class="author__applause-text lang-cn">给作者点赞 👏</span>
     </div>
   </div>
