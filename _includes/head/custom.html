@@ -3,6 +3,10 @@
 <!-- Support for Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
+<!-- Applause Button CSS & JS for Sidebar Like Record -->
+<link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css"/>
+<script src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
+
 <!-- Favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.jpg" sizes="32x32"/>
@@ -486,5 +490,45 @@
   html[data-theme="dark"] .lang-toggle-pill:hover {
     background: #8B5CF6 !important;
     color: #FFFFFF !important;
+  }
+
+  /* Applause Button Custom Sidebar Styling */
+  .author__applause {
+    margin-top: 1.2rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(226, 232, 240, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+  }
+
+  .author__applause applause-button {
+    width: 54px;
+    height: 54px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .author__applause applause-button:hover {
+    transform: scale(1.08);
+  }
+
+  .author__applause-text {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #6B7280;
+    margin-top: 2px;
+    text-align: center;
+  }
+
+  html[data-theme="dark"] .author__applause {
+    border-top-color: rgba(255, 255, 255, 0.12);
+  }
+
+  html[data-theme="dark"] .author__applause-text {
+    color: #9CA3AF !important;
   }
 </style>
