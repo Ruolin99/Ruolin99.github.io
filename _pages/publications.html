@@ -27,7 +27,7 @@ author_profile: true
   </div>
 
   <div style="display: flex; flex-direction: column; gap: 1.2rem; margin-top: 1rem;">
-    {% assign pubs_sorted = site.publications | sort: 'date' | reverse %}
+    {% assign pubs_sorted = site.publications | sort: 'order' %}
     {% for post in pubs_sorted %}
       <div class="dopamine-card dopamine-card-purple">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.6rem; flex-wrap: wrap; gap: 0.4rem;">

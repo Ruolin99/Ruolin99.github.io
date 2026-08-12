@@ -5,6 +5,7 @@ category: manuscripts
 permalink: /publication/2026-01-01-from-ambiguity-to-precision
 excerpt: 'The Digitized Traffic Rule Optimization Framework is a specialized framework for safety-compliant automated driving trajectory planning under mixed human-automated vehicle ambiguous traffic scenarios.'
 date: 2026-01-01
+order: 1
 venue: 'Accident Analysis & Prevention'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S0001457526001302'
 citation: 'Shi, R., Wang, X., Zhu, M., et al. (2026). From ambiguity to precision: Digitized traffic rules for autonomous driving. <i>Accident Analysis & Prevention</i>, 232, 108521.'

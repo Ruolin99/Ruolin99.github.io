@@ -5,6 +5,7 @@ category: manuscripts
 permalink: /publication/2026-01-02-china-highway-journal
 excerpt: '面向自动驾驶系统的交通规则建模研究进展（中国公路学报, 2026）'
 date: 2026-01-02
+order: 4
 venue: '中国公路学报'
 paperurl: 'https://zgglxb.chd.edu.cn/CN/10.19721/j.cnki.1001-7372.2026.03.014'
 citation: '王雪松, 石若琳, 符辰铭, 等. 面向自动驾驶系统的交通规则建模研究进展 [J/OL]. <i>中国公路学报</i>, 2026.'

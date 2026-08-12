@@ -5,6 +5,7 @@ category: manuscripts
 permalink: /publication/2024-12-01-conflict-extraction
 excerpt: 'This paper presents a comprehensive analysis of traffic conflicts at signalized intersections using trajectory data, focusing on conflict extraction methods and characteristics analysis.'
 date: 2024-12-01
+order: 5
 venue: 'International Journal of Transportation Science and Technology'
 paperurl: 'https://www.sciencedirect.com/science/article/pii/S2046043025000012'
 codeurl: 'https://github.com/Ruolin99/Two-step-trajectory-reconstruction'

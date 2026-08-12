@@ -5,6 +5,7 @@ category: manuscripts
 permalink: /publication/2025-01-15-ruleplanner
 excerpt: 'This paper presents a framework for digitizing traffic rules to enhance automated vehicle trajectory planning, integrating rule-based constraints with motion planning algorithms.'
 date: 2025-01-15
+order: 3
 venue: 'Expert Systems with Applications'
 paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0957417425002830'
 codeurl: 'https://github.com/Ruolin99/RulePlanner'
